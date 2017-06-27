@@ -8,7 +8,7 @@ class String
   end
 end
 def create_account
-  puts "Please enter the following: "
+  puts "Enter the following please: "
   print "Full Name: "
   $name = gets.chomp.capitalize_each
   print "Contact number: "
